@@ -1,0 +1,43 @@
+{"intents": [
+{"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, welcome ","Hiiiiii", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+},
+{"tag": "goodbye",
+ "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+ "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.","Sad to see you go :(","Talk you later","Goodbye"],
+ "context": [""]
+},
+{"tag": "development",
+ "patterns": ["whom to connect for new development","developer for the bot","connect me to someone developer","chat in person with developer","mail-id of the development team"],
+ "responses": ["\\nManager\\n  Urvinder Singh - urvinder.singh@ericsson.com \\nSenior Engineer\\n  Abhay Kumar Pathak - abhay.kumar.pathak@ericsson.com \\nAssociate Engineer\\n  Mudit Mishra - mudit.manas.mishra@ericsson.com \\nNetwork Engineer\\n  Shivashankar Nagure - shivashankar.nagure@ericsson.com\\n"],
+ "context": [""]
+},
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you","your info","into","introduce"],
+  "responses": ["You can call me Morgan Freeman, I am ISF BOT Assistant","I'm Morgan Freeman, I am ISF BOT Assistant, always happy to help ","I'm Morgan Freeman your virtual assistant for ISF , always happy to help ask me"]
+  },
+
+  {"tag": "bot",
+  "patterns": ["what bots are available", "how many bot are there in this website","what is the bot count"],
+  "responses": ["we currently have 150 bots running and deployed, want to get details ? \\n type YES or 1",
+				"Please, Don't calculate , we have 150 bots handled for you, want to get details ? \\n type YES or 1",
+				"Want to get details on BOT ? \\n type YES or 1"]
+  },
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk","hbiujnno","gvufjko","snduwendwo","jqnoweu9eqzs","ajsdiuwh9ue9w"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+  
+  {"tag": "default",
+    "patterns": ["default"],
+    "responses": ["Hi there again Felling fresh , \\n       Start typing . . . ", "Let's start fresh, \\n       Start writing . . . ", "sorry for this , I want a  Fresh start, \\n        Go ahed ask me . . ."]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  }
+]}
